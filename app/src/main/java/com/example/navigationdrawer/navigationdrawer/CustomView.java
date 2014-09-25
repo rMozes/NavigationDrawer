@@ -29,6 +29,7 @@ public class CustomView extends View {
         super(context);
         init();
     }
+    //first change in GitHub
 
     public CustomView(Context context, AttributeSet set) {
         super(context, set);
