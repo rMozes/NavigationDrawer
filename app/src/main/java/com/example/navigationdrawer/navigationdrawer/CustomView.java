@@ -76,6 +76,7 @@ public class CustomView extends View {
                 mPoints.remove(id);
                 break;
             }
+            //second change
             case MotionEvent.ACTION_MOVE:
                 int size = mPoints.size();
                 for(int i = 0; i < size; i++) {
