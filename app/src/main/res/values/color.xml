@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#fffafafa</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#f76f6f6f</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+</resources>
