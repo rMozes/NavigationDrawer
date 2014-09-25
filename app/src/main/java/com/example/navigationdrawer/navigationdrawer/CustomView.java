@@ -22,10 +22,8 @@ public class CustomView extends View {
 
     private Paint paint;
     private boolean isOnTouch;
-   //private float mX, mY;
     private SparseArray<Point> mPoints;
     private int[] colors;
-    //private Random random;
 
     public CustomView(Context context) {
         super(context);
@@ -42,14 +40,9 @@ public class CustomView extends View {
 
     private void init() {
         paint = new Paint();
-
         colors = new int[] {Color.RED, Color.BLUE, Color.BLACK, Color.CYAN, Color.GREEN, Color.DKGRAY
                             ,Color.MAGENTA, Color.LTGRAY, Color.YELLOW};
-
         mPoints = new SparseArray<Point>();
-
-        //random = new Random();
-
         isOnTouch = true;
     }
 
@@ -76,7 +69,6 @@ public class CustomView extends View {
                 mPoints.remove(id);
                 break;
             }
-            //second change
             case MotionEvent.ACTION_MOVE:
                 int size = mPoints.size();
                 for(int i = 0; i < size; i++) {
