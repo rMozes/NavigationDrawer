@@ -59,6 +59,7 @@ public class CustomView extends View {
         int action = event.getActionMasked();
         int index = event.getActionIndex();
         int id = event.getPointerId(index);
+        //first changes
 
         switch (action) {
             case MotionEvent.ACTION_DOWN:
